@@ -1,0 +1,322 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.maciek.kalkulatorkalorii.MainActivity"
+    tools:showIn="@layout/app_bar_main"
+    android:id="@+id/relativelayout_for_fragment">
+    <!--<include layout="@layout/fragment_fjadlospis"></include>-->
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Posiłek 1"
+                    android:layout_gravity="center"
+                    android:textSize="30dp"
+                    android:layout_marginLeft="20dp" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginLeft="20dp">
+
+                    <TextView
+                        android:id="@+id/tvMainB1"
+                        style="@style/JadlospisBTWTextViewStyle"
+                        android:layout_marginTop="20dp"
+                        android:text="B: " />
+
+                    <TextView
+                        android:id="@+id/tvMainT1"
+                        style="@style/JadlospisBTWTextViewStyle"
+                        android:text="T:  " />
+
+                    <TextView
+                        android:id="@+id/tvMainW1"
+                        style="@style/JadlospisBTWTextViewStyle"
+                        android:text="W:  " />
+
+                    <TextView
+                        android:id="@+id/tvMainK1"
+                        style="@style/JadlospisBTWTextViewStyle"
+                        android:text="K:  " />
+                </LinearLayout>
+
+                <ImageButton
+                    android:id="@+id/bJadlospisPosilek1"
+                    style="@style/JadlospisButtonsStyle"
+                    android:src="@drawable/ic_add_box_light_blue_500_48dp"
+                    android:background="@android:color/transparent"
+                    android:layout_marginTop="30dp" />
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Posiłek 2"
+                    android:layout_gravity="center"
+                    android:textSize="30dp"
+                    android:layout_marginLeft="20dp" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginLeft="20dp">
+
+                    <TextView
+                        android:id="@+id/tvMainB2"
+                        style="@style/JadlospisBTWTextViewStyle"
+                        android:layout_marginTop="20dp"
+                        android:text="B: " />
+
+                    <TextView
+                        android:id="@+id/tvMainT2"
+                        style="@style/JadlospisBTWTextViewStyle"
+                        android:text="T:  " />
+
+                    <TextView
+                        android:id="@+id/tvMainW2"
+                        style="@style/JadlospisBTWTextViewStyle"
+                        android:text="W:  " />
+
+                    <TextView
+                        android:id="@+id/tvMainK2"
+                        style="@style/JadlospisBTWTextViewStyle"
+                        android:text="K:  " />
+                </LinearLayout>
+
+                <ImageButton
+                    android:id="@+id/bJadlospisPosilek2"
+                    style="@style/JadlospisButtonsStyle"
+                    android:src="@drawable/ic_add_box_light_blue_500_48dp"
+                    android:background="@android:color/transparent"
+                    android:layout_marginTop="30dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Posiłek 3"
+                    android:layout_gravity="center"
+                    android:textSize="30dp"
+                    android:layout_marginLeft="20dp" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginLeft="20dp">
+
+                    <TextView
+                        android:id="@+id/tvMainB3"
+                        style="@style/JadlospisBTWTextViewStyle"
+                        android:layout_marginTop="20dp"
+                        android:text="B: " />
+
+                    <TextView
+                        android:id="@+id/tvMainT3"
+                        style="@style/JadlospisBTWTextViewStyle"
+                        android:text="T:  " />
+
+                    <TextView
+                        android:id="@+id/tvMainW3"
+                        style="@style/JadlospisBTWTextViewStyle"
+                        android:text="W:  " />
+
+                    <TextView
+                        android:id="@+id/tvMainK3"
+                        style="@style/JadlospisBTWTextViewStyle"
+                        android:text="K:  " />
+                </LinearLayout>
+
+                <ImageButton
+                    android:id="@+id/bJadlospisPosilek3"
+                    style="@style/JadlospisButtonsStyle"
+                    android:src="@drawable/ic_add_box_light_blue_500_48dp"
+                    android:background="@android:color/transparent"
+                    android:layout_marginTop="30dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Posiłek 4"
+                    android:layout_gravity="center"
+                    android:textSize="30dp"
+                    android:layout_marginLeft="20dp" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginLeft="20dp">
+
+                    <TextView
+                        android:id="@+id/tvMainB4"
+                        style="@style/JadlospisBTWTextViewStyle"
+                        android:layout_marginTop="20dp"
+                        android:text="B: " />
+
+                    <TextView
+                        android:id="@+id/tvMainT4"
+                        style="@style/JadlospisBTWTextViewStyle"
+                        android:text="T:  " />
+
+                    <TextView
+                        android:id="@+id/tvMainW4"
+                        style="@style/JadlospisBTWTextViewStyle"
+                        android:text="W:  " />
+
+                    <TextView
+                        android:id="@+id/tvMainK4"
+                        style="@style/JadlospisBTWTextViewStyle"
+                        android:text="K:  " />
+                </LinearLayout>
+
+                <ImageButton
+                    android:id="@+id/bJadlospisPosilek4"
+                    style="@style/JadlospisButtonsStyle"
+                    android:src="@drawable/ic_add_box_light_blue_500_48dp"
+                    android:background="@android:color/transparent"
+                    android:layout_marginTop="30dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Posiłek 5"
+                    android:layout_gravity="center"
+                    android:textSize="30dp"
+                    android:layout_marginLeft="20dp" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginLeft="20dp">
+
+                    <TextView
+                        android:id="@+id/tvMainB5"
+                        style="@style/JadlospisBTWTextViewStyle"
+                        android:layout_marginTop="20dp"
+                        android:text="B: " />
+
+                    <TextView
+                        android:id="@+id/tvMainT5"
+                        style="@style/JadlospisBTWTextViewStyle"
+                        android:text="T:  " />
+
+                    <TextView
+                        android:id="@+id/tvMainW5"
+                        style="@style/JadlospisBTWTextViewStyle"
+                        android:text="W:  " />
+
+                    <TextView
+                        android:id="@+id/tvMainK5"
+                        style="@style/JadlospisBTWTextViewStyle"
+                        android:text="K:  " />
+                </LinearLayout>
+
+                <ImageButton
+                    android:id="@+id/bJadlospisPosilek5"
+                    style="@style/JadlospisButtonsStyle"
+                    android:src="@drawable/ic_add_box_light_blue_500_48dp"
+                    android:background="@android:color/transparent"
+                    android:layout_marginTop="30dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Posiłek 6"
+                    android:layout_gravity="center"
+                    android:textSize="30dp"
+                    android:layout_marginLeft="20dp" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginLeft="20dp">
+
+                    <TextView
+                        android:id="@+id/tvMainB6"
+                        style="@style/JadlospisBTWTextViewStyle"
+                        android:layout_marginTop="20dp"
+                        android:text="B: " />
+
+                    <TextView
+                        android:id="@+id/tvMainT6"
+                        style="@style/JadlospisBTWTextViewStyle"
+                        android:text="T:  " />
+
+                    <TextView
+                        android:id="@+id/tvMainW6"
+                        style="@style/JadlospisBTWTextViewStyle"
+                        android:text="W:  " />
+
+                    <TextView
+                        android:id="@+id/tvMainK6"
+                        style="@style/JadlospisBTWTextViewStyle"
+                        android:text="K:  " />
+                </LinearLayout>
+
+                <ImageButton
+                    android:id="@+id/bJadlospisPosilek6"
+                    style="@style/JadlospisButtonsStyle"
+                    android:src="@drawable/ic_add_box_light_blue_500_48dp"
+                    android:background="@android:color/transparent"
+                    android:layout_marginTop="30dp" />
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

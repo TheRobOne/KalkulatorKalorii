@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.maciek.kalkulatorkalorii.AProfile">
+
+    <include
+        android:id="@+id/tool_bar_aprofile"
+        layout="@layout/tool_bar_aprofile"></include>
+
+
+    <TextView
+        android:id="@+id/tvProfilePodsumowanie"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Podsumowanie"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="30dp"
+        android:textSize="30dp" />
+
+    <TextView
+        android:id="@+id/tvProfileBialka"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Białka: "
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="30dp"
+        android:textSize="26dp" />
+
+    <com.akexorcist.roundcornerprogressbar.RoundCornerProgressBar
+        android:id="@+id/progress_1"
+        android:layout_height="40dp"
+        android:layout_width="300dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="30dp"
+        app:rcBackgroundPadding="5dp" />
+
+    <TextView
+        android:id="@+id/tvProfileTluszcze"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tłuszcze: "
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="30dp"
+        android:textSize="26dp" />
+
+    <com.akexorcist.roundcornerprogressbar.RoundCornerProgressBar
+        android:id="@+id/progress_2"
+        android:layout_height="40dp"
+        android:layout_width="300dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="30dp"
+        app:rcBackgroundPadding="5dp" />
+
+    <TextView
+        android:id="@+id/tvProfileWegle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Węglowodany: "
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="30dp"
+        android:textSize="26dp" />
+
+    <com.akexorcist.roundcornerprogressbar.RoundCornerProgressBar
+        android:id="@+id/progress_3"
+        android:layout_height="40dp"
+        android:layout_width="300dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="30dp"
+        app:rcBackgroundPadding="5dp" />
+
+    <TextView
+        android:id="@+id/tvProfileKalorie"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Kalorie: "
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="30dp"
+        android:textSize="26dp" />
+
+    <com.akexorcist.roundcornerprogressbar.RoundCornerProgressBar
+        android:id="@+id/progress_4"
+        android:layout_height="40dp"
+        android:layout_width="300dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="30dp"
+        app:rcBackgroundPadding="5dp" />
+
+</LinearLayout>

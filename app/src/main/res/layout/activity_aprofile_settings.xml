@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.maciek.kalkulatorkalorii.AProfileSettings">
+
+    <include
+        android:id="@+id/tool_bar_aprofile"
+        layout="@layout/tool_bar_aprofile"></include>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Dane:"
+        android:textSize="26dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="10dp" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Wiek:"
+            android:textSize="18dp"
+            android:layout_marginLeft="30dp" />
+
+        <EditText
+            android:id="@+id/etProfileSettingsWiek"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="wiek"
+            android:textSize="18dp"
+            android:inputType="numberDecimal" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Waga:"
+            android:textSize="18dp"
+            android:layout_marginLeft="30dp"
+            android:inputType="numberDecimal" />
+
+        <EditText
+            android:id="@+id/etProfileSettingsWaga"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="waga"
+            android:textSize="18dp"
+            android:inputType="numberDecimal" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Zapotrzebowanie:"
+        android:textSize="26dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="10dp" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Białka:"
+            android:textSize="18dp"
+            android:layout_marginLeft="30dp" />
+
+        <EditText
+            android:id="@+id/etProfileSettingsBialka"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="białka"
+            android:textSize="18dp"
+            android:inputType="numberDecimal" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tłuszcze:"
+            android:textSize="18dp"
+            android:layout_marginLeft="30dp" />
+
+        <EditText
+            android:id="@+id/etProfileSettingsTluszcze"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="tłuszcze"
+            android:textSize="18dp"
+            android:inputType="numberDecimal" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Węglowodany:"
+            android:textSize="18dp"
+            android:layout_marginLeft="30dp" />
+
+        <EditText
+            android:id="@+id/etProfileSettingsWeglowodany"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="węglowodany"
+            android:textSize="18dp"
+            android:inputType="numberDecimal" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/bProfileSettingsZapisz"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/zapisz"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="250dp" />
+
+</LinearLayout>

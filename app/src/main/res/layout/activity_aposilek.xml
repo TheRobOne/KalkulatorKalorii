@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.maciek.kalkulatorkalorii.APosilek">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+
+        <include
+            android:id="@+id/tool_bar_aposilek"
+            layout="@layout/tool_bar_aposilek"></include>
+
+
+        <Spinner
+            android:id="@+id/spinner"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:prompt="@string/spinner_title"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/etPosilekGramy"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="gramy"
+                android:layout_marginLeft="10dp"
+                android:inputType="numberDecimal"
+                android:layout_gravity="center"
+                android:layout_marginBottom="22dp" />
+
+            <LinearLayout
+                android:layout_width="70dp"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/bPosilekDodajProdukt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="OK"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:id="@+id/tvPosilekGramy"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Gramy: "
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="3dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+
+                <TextView
+                    android:id="@+id/tvPosilekTluszcze"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Tłuszcze: "
+                    android:layout_marginLeft="10dp" />
+
+
+                <TextView
+                    android:id="@+id/tvPosilekBiaka"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Białka: "
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="10dp" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="120dp"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/tvPosilekWeglowodany"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Węglowodany: "
+                    android:layout_marginLeft="10dp" />
+
+
+                <TextView
+                    android:id="@+id/tvPosilekKalorie"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Kalorie: "
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="10dp" />
+
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <ListView
+            android:id="@+id/lvList"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+            android:drawSelectorOnTop="false"></ListView>
+
+
+    </LinearLayout>
+
+    <!--<LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="2"
+            >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Gramy: \nKalorie:"
+            android:textSize="22dp"
+            android:paddingBottom="10dp"
+            android:paddingLeft="10dp"
+            android:textColor="#fff"
+            android:background="@color/colorPrimary"
+            android:layout_alignParentBottom="true"
+            android:layout_weight="1"
+            />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Suma:\ngraelo"
+            android:textSize="22dp"
+            android:paddingBottom="5dp"
+            android:paddingLeft="10dp"
+            android:textColor="#fff"
+            android:background="@color/colorPrimary"
+            android:layout_alignParentBottom="true"
+            android:layout_weight="1"
+            />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>-->
+
+
+    <!--<TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Gramy:\t\t\t\t\t\t\t\tBiałko:\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tWęglowodany:\nKalorie: \t\t\t\t\t\t\t\tTłuszcze:"
+        android:textSize="22dp"
+        android:paddingBottom="10dp"
+        android:paddingLeft="10dp"
+        android:textColor="#fff"
+        android:background="@color/colorPrimary"
+        android:layout_alignParentBottom="true"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Suma:\ngraelo"
+        android:textSize="22dp"
+        android:paddingBottom="5dp"
+        android:paddingLeft="10dp"
+        android:textColor="#fff"
+        android:background="@color/colorPrimary"
+        android:layout_alignParentBottom="true"
+        />-->
+</RelativeLayout>

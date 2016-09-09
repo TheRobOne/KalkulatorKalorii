@@ -1,0 +1,52 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.maciek.kalkulatorkalorii.ADodajProdukt">
+
+    <include
+        android:id="@+id/tool_bar_adodaj_produkt"
+        layout="@layout/tool_bar_adodaj_produkt"></include>
+    <!-- TODO: Update blank fragment layout -->
+    <EditText
+        android:id="@+id/etDodajProduktNazwa"
+        style="@style/DodajProduktEditTextStyle"
+        android:layout_marginTop="20dp"
+        android:hint="Nazwa" />
+
+    <EditText
+        android:id="@+id/etDodajProduktBialka"
+        style="@style/DodajProduktEditTextStyle"
+        android:hint="Białko"
+        android:inputType="numberDecimal" />
+
+    <EditText
+        android:id="@+id/etDodajProduktTluszcze"
+        style="@style/DodajProduktEditTextStyle"
+        android:hint="Tłuszcze"
+        android:inputType="numberDecimal" />
+
+    <EditText
+        android:id="@+id/etDodajProduktWeglowodany"
+        style="@style/DodajProduktEditTextStyle"
+        android:hint="Węglowodany"
+        android:inputType="numberDecimal" />
+
+    <EditText
+        android:id="@+id/etDodajProduktBarCode"
+        style="@style/DodajProduktEditTextStyle"
+        android:hint="code"
+        android:text="0"
+        android:visibility="invisible" />
+
+    <Button
+        android:id="@+id/bDodProdukt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:text="Dodaj produkt" />
+
+</LinearLayout>
