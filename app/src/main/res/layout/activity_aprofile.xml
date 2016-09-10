@@ -29,7 +29,7 @@
         android:layout_marginTop="20dp"
         android:layout_marginLeft="30dp"
         android:textSize="26dp" />
-
+//
     <com.akexorcist.roundcornerprogressbar.RoundCornerProgressBar
         android:id="@+id/progress_1"
         android:layout_height="40dp"

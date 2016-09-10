@@ -47,7 +47,7 @@ public class AProfileSettings extends AppCompatActivity {
     }
 
     /**
-     * metoda opowiadajaca za ladowanie do bazy ustawien profilu
+     * metoda opowiadaaca za ladowanie do bazy ustawien profilu
      */
     public void insertToDB() {
         try {

@@ -24,4 +24,5 @@ public class CPomocnicza {
         bd = bd.setScale(places, RoundingMode.HALF_UP);
         return bd.doubleValue();
     }
+    //
 }

@@ -5,7 +5,7 @@ package com.example.maciek.kalkulatorkalorii;
  */
 
 /**
- * Klasa tworzaca liste potrzebna do wyswietlania produktow wchodzacych w skald posilku
+ * Klasa tworzaca liste potrzebna do wyswietlania produktow wchodzacych w sklad posilku
  */
 public class CListItem {
     private String produkt;

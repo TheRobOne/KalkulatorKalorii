@@ -14,7 +14,7 @@ import com.example.maciek.kalkulatorkalorii.DataBase.CBazaPosilek;
 import com.example.maciek.kalkulatorkalorii.DataBase.CBazaProfil;
 
 /**
- * Klasa odpowiada za wyswietlanie statystyk aktualnego spozycia
+ * Klasa odpowiada za wyswietlanie statystyk aktualnego spozyca
  */
 public class AProfile extends AppCompatActivity {
 

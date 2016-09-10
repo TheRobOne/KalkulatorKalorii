@@ -265,7 +265,7 @@ public class APosilek extends AppCompatActivity implements View.OnClickListener 
      * metoda potrzebna przy ustawieniu odpowiedniego elementu spinnera
      *
      * @param spinner  spinner
-     * @param myString element kroy ma byc ustawiony
+     * @param myString element ktory ma byc ustawiony
      * @return zwraca indeks elementu
      */
     private int getIndex(Spinner spinner, String myString) {

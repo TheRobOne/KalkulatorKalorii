@@ -13,7 +13,7 @@ import java.util.ArrayList;
 
 /**
  * Created by Maciek on 04.06.2016.
- * Adapter do listy
+ * Adapter do listy produktów
  */
 public class CListAdapter extends ArrayAdapter<CListItem> {
 

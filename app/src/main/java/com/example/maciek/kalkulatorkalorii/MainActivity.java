@@ -115,7 +115,7 @@ public class MainActivity extends AppCompatActivity
 
 
     /**
-     * Oblicza sume gramow poszczegolnych posilkow i wyswietla wyniki w glownej aktywnosci
+     * Oblicza sume gramow poszczegolnych posilkow i wyswietla wyniki w glownej aktywnoscii
      *
      * @param posNumber   numer posilka
      * @param Bialka      gramy bialka

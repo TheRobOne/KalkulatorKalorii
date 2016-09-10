@@ -15,7 +15,7 @@
             android:id="@+id/tool_bar_aposilek"
             layout="@layout/tool_bar_aposilek"></include>
 
-
+//
         <Spinner
             android:id="@+id/spinner"
             android:layout_width="fill_parent"

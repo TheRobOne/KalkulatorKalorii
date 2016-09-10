@@ -36,6 +36,6 @@
                 android:text="Idź" />
 
         </LinearLayout>
-
+//
     </LinearLayout>
 </RelativeLayout>

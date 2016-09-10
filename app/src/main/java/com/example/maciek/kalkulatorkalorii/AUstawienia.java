@@ -10,7 +10,7 @@ import android.widget.Button;
 import android.widget.Toast;
 
 /**
- * Klasa ustawien w ktorych mozna podgladnac baze danych oraz napisac maila do tworcy aplikacji
+ * Klasa ustawien w ktorych mozna podgladnac baze danych oraz napisac maila do tworcy aplikacjii
  */
 public class AUstawienia extends AppCompatActivity {
 
